@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Web page Draft</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        
+        <h1 class="logo"><a href="#">Memories From The Past</a></h1> <a id="menu-icon">&#9776; Menu</a>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="lifesaver.html" >Wall Street Plaza</a></li>
+               
+                <li><a href="otherpictures.html">Staten Island Memorial</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+     
+
+    <article class="main">
+     <div class="Wall Street Plaza">
+     
+   
+    <img src="images/Resize-new-2.jpg" alt="wall street plaza" />
+        </div>
+        
+        <div class="title">
+        
+            <h1>Life Saver</h1>
+        </div>
+          
+          <div class="introduction">
+           <p>Wall Street Plaza: This is the place a few of us went to when 911 happened. It's a small plaza with a small waterfall, located on the Lower East Side of Manhattan.</p>
+        </div>
+
+       
+    
+     <div class="pictures">
+            <div class="image"><img src="images/Plaza-with-waterfall.jpg" alt="Waterfall" /></div>
+            
+            <!--Google images-->
+            <div class="image"><img src="images/WaterFrontView.png" alt="Plaza" /></div>
+
+            <!--<div class="image"><img src="images/WaterFall-4.jpg" alt="South Street Plaza" /></div>-->
+        </div>
+    </article>
+
+
+    <footer>
+        <h4>
+            <p>© Copyright 2017 Luis Cortez</p>
+        </h4>
+
+    </footer>
+
+    <!--    This is javascript needed for the navigation to work-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('#menu-icon').on('click', function() {
+                $('.navbar').toggleClass('expand');
+                return false;
+            });
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Web page Draft</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        
+        <h1 class="logo"><a href="#">Memories From The Past</a></h1> <a id="menu-icon">&#9776; Menu</a>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a  href="index.html">Home</a></li>
+                <li><a class="active" href="lifesaver.html" >Wall Street Plaza</a></li>
+               
+                <li><a href="otherpictures.html">Staten Island Memorial</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <article class="main">
+        <div class="heroimage">
+            <!--<img src="http://via.placeholder.com/1200x400" alt="">-->
+            <img src="images/WaterFall-9-2.jpg" alt="Waterfall" />
+        </div>
+        <div class="title">
+            <h1>Life Saver</h1>
+            <h2>Fountain of Life</h2>
+            <p class="date">September 11, 2001</p>
+
+        </div>
+        <div class="introduction">
+
+            <p>My special area in New York: This is the place a few of us went to when 911 happened. It's a small plaza with a small waterfall, located on the Lower East Side of Manhattan.</p>
+
+            <p>It was here that some of us New Yorkers who survived through 911, went to in our moment of crisis, to splash some water and some hope, on our weary faces. To borrow some words from FDR, our former President, September 11 was "A day that will live in infamy."</p>
+
+
+
+        </div>
+
+        <div class="map">
+            <div class="box"><img src="images/Map.png" alt="Map" /></div>
+
+
+        </div>
+
+
+        <div class="detailimages">
+            <div class="image"><img src="images/WaterFall-1.jpg" alt="Waterfall" /></div>
+            <div class="image"><img src="images/WaterFall-2.jpg" alt="Waterfall" /></div>
+            <div class="image"><img src="images/WaterFall-3-2.jpg" alt="Waterfall" /></div>
+            <div class="image"><img src="images/WaterFall-4-2.jpg" alt="Waterfall plus plaza" /></div>
+        </div>
+
+
+
+        <div class="maintext">
+
+
+
+
+            <p>It was the day our nation went through one of the most horrific attacks on our soil. I will not recount the whole backstory of what happened on that date, but I will tell you about how some of us survived that ordeal, on that date.</p>
+
+            <p>I was working at the time for AIG, an insurance company located in downtown Manhattan, at the time, only a few blocks away from the World Trade Center. On that fateful day, one of our co-workers ran through the doors of our mailroom department, we asked him what happened? And he replied that a plane had just hit one of the Trade Towers.</p>
+
+            <p>He and some of us went back outside to see what was going on. We witnessed papers and debris flying through the air, and one of the Trade Towers on fire burning up. We went back inside the mailroom department to tell everyone what we had just seen with our own eyes. We were all in shock and didn’t know what to do, so we stay put for a while inside.</p>
+
+            <p>Moments later, I cannot recall the exact time, the co-worker who had previously told us about the plane crashing into one of the Trade Towers, walked back inside, he looked white as a ghost, all cover in dust and soot. Mind you he was an African American person. Once again, we asked what happened? He replied that the Tower had fallen and he barely made it out with his life. He had walked all the way to the Trade Center, to see the commotion, when the First Tower that was hit, suddenly gave way and collapsed.</p>
+
+            <p>It was then that we all panicked and ran outside to find ourselves in a cloud of soot, smoke and debris. You could not see your hand in front of your face. Don’t ask me how, but I managed to locate the bicycle that I had tied up outside and ran along with everyone else across the street. We managed to find our way to Water street and we ran across to this small Plaza that had this waterfall in it. We all line up against the waterfall, and splashed some water on our faces, just as soon as we splash the water on our faces, we hear what sounded like jet planes overhead, we panicked and we ran tours South Street Seaport street. There, we found this man in a truck handing out hand towels to everyone, so that we may cover our faces to be able to breathe. Some of us walked tours the FDR drive north entry, it was there that we witnessed the second Tower collapse. </p>
+
+            <p>To say that it was a day that I will never forget, would be an understatement. But I will never forget the plaza with the waterfall, that gave some of us some relief from the horrors of that day. To anyone who is interested in visiting this Plaza with a waterfall, you are welcome to go visit anytime. </p>
+
+
+            <h3>Directions</h3>
+            <ul>
+                <li>
+                    <p>You can take the <strong>J train</strong> to Broad Street/Wall Street station and then walk down tours Water Street.</p>
+                </li>
+
+                <li>
+                    <p>The <strong>4, 5 trains</strong> stop at Wall Street station, you walk from there tours Water Street.</p>
+                </li>
+
+                <li>
+                    <p>You can also take the <strong>2,3,4,5 trains</strong> to Fulton Street, and then walk from there tours water Street.</p>
+                </li>
+            </ul>
+        </div>
+    </article>
+
+
+    <footer>
+        <h4>
+            <p>© Copyright 2017 Luis Cortez</p>
+        </h4>
+
+    </footer>
+
+    <!--    This is javascript needed for the navigation to work-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('#menu-icon').on('click', function() {
+                $('.navbar').toggleClass('expand');
+                return false;
+            });
+        });
+    </script>
+
+</body>
+
+</html>

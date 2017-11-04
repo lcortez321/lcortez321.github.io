@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Website Draft</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="logo"><img src="images/Logo.png" alt="Logo" /></div>
+
+        <h1 class="logo"><a href="#">Memories From The Past</a></h1> <a id="menu-icon">&#9776; Menu</a>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="index.html" target="mycontent">Home</a></li>
+                <li><a href="otherpictures.html" target="mycontent">Other Pictures</a></li>
+                <li><a href="about.html" target="mycontent"> About </a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <article class="main">
+        <div class="plaza">
+            <!--<img src="http://via.placeholder.com/1200x400" alt="">-->
+            <img src="images/Wall-Street-Plaza.png" alt="wall street plaza" />
+
+        </div>
+
+
+        <div class="pictures">
+            <div class="image"><img src="images/Plaza-with-waterfall.jpg" alt="Waterfall" /></div>
+            <div class="image"><img src="images/WaterFrontView.png" alt="Plaza" /></div>
+
+            <div class="image"><img src="images/WaterFall-4.jpg" alt="south street plaza" /></div>
+        </div>
+
+
+        <div class="maintext">
+            <p> My Pictures</p>
+
+
+
+
+
+
+        </div>
+    </article>
+
+
+    <footer>
+        <h4>
+            <p>© Copyright 2017 Luis Cortez</p>
+        </h4>
+
+    </footer>
+
+    <!--    This is javascript needed for the navigation to work-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('#menu-icon').on('click', function() {
+                $('.navbar').toggleClass('expand');
+                return false;
+            });
+        });
+    </script>
+
+</body>
+
+</html>

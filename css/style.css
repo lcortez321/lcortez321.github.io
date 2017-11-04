@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Rubik:400,400i,700');
+
+/* Basic Responsive Images and Video*/
+
+img,
+video {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+
+  .maintext {
+        grid-area: text;
+        text-align: justify;
+        font-size: 1em;
+        font-weight: 500;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    h1, h2, h3, h4, h5, h6{
+        font-weight: 700;
+        font-family: 'Rubik', sans-serif;
+    }
+    h1 {
+        font-family: 'Rubik', sans-serif;
+        font-size: 2em;
+        font-weight: 200;
+        color: #504A4B;
+    }
+    
+    h2{
+         font-family: 'Rubik', sans-serif;
+         font-size: 1em;
+         font-weight: 400;
+        
+    }
+
+    h4{
+        font-family: 'Rubik', sans-serif;
+        font-size: 10px;
+        font-weight: 100;
+        color: white;
+    }
+    
+    h5{
+        font-size: 1em;
+        line-height: 1;
+        margin: 1.5em 0 0.5em 0;
+    }
+    
+    h6{
+        font-size: 1em;
+        line-height: 1.5;
+        margin: 1em 0 0 0;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    
+    html{font-size: 1em;}
+
+    body {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+        background-color: #ffffff;
+    }
+
+.date{
+    font-style: italic;
+}
+
+@supports (grid-area: auto) {
+    article.main {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: repeat(4, max-content);
+        grid-template-areas: "hero hero hero" "title detail detail" "intro detail detail" "text map map";
+    }
+    
+    .heroimage {
+        grid-area: hero;
+        width: 1200;
+        height: 400;
+        float: top,
+    }
+    
+   
+    .title {
+        grid-area: title;
+        text-align: justify;
+    }
+    .introduction {
+        grid-area: intro;
+        font-size: 1.5em;
+    }
+    .map {
+        grid-area: map;
+        width: 50%;
+        height: 25%;
+        padding: 0px;
+    }
+    .detailimages {
+        grid-area: detail;
+        grid-area: detail;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    
+       .otherpictures {
+        grid-area: hero;
+        grid-area: detail;
+        grid-area: detail;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about{
+        grid-area: detail;
+        grid-area: detail;
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+    
+    .information{
+        height: 800px;
+        width: 400px;
+    }
+  
+  
+    
+    p{
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+
+   footer{
+    background-color: grey;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    }
+}

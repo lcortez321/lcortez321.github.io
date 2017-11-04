@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Midterm Web page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+       
+
+        <h1 class="logo"><a href="#">Memorial</a></h1> <a id="menu-icon">&#9776; Menu</a>
+        <nav class="navbar">
+            <ul class="menu">
+               
+             <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lifesaver.html" >Wall Street Plaza</a></li>
+               
+                <li><a class="active" href="otherpictures.html">Staten Island Memorial</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <article class="main">
+        <div class="memorial">
+            <!--<img src="http://via.placeholder.com/1200x400" alt="">-->
+            <img src="images/Memorial-15.jpg" alt="staten island memorial" />
+
+        </div>
+
+        <div class="title">
+            <h1>Staten Island 9/11 Memorial</h1>
+
+                   <p>Where is it?
+The Staten Island 9/11 Memorial is located in the Waterfront memorial park adjacent to the Staten Island Yankees stadium in St Goerge Staten Island NY</p>
+        </div>
+
+        <div class="introduction">
+
+        <h1>Daniel Castillo</h1>
+
+        <p>When is the first time you were there?
+I visited this site for the first time in the winter of 2016.</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+        <div class="otherpictures">
+            <div class="image"><img src="images/Sample-1.png" alt="memorial" /></div>
+            <div class="image"><img src="images/Sample-2.jpg" alt="memorial" /></div>
+
+            <div class="image"><img src="images/Sample-3.jpg" alt="Staten Island Memorial" /></div>
+            
+             <div class="image"><img src="images/sample-4.jpg" alt="Staten Island Memorial" /></div>
+             
+              <div class="image"><img src="images/sample-5.jpg" alt="Staten Island Memorial" /></div>
+              
+                <div class="image"><img src="images/sample-6.jpg" alt="Staten Island Memorial" /></div>
+        </div>
+
+
+        <div class="maintext">
+          
+<p>What is special/meaningful about it?
+This memorial is dedicated to the 275 victims of the September 11th terrorist attack on New York City that lived on Staten Island.</p>
+
+<p>Why should other people visit it? It has a beautiful view of lower Manhattan from across the waters here in the north shore of Staten Island. During the anniversary of September 11th you have a unique view of the light towers projected form the World Trade Center site.</p>
+
+<p>Is there anything they need to know or prepare to go there? What's the best way to get
+there?</p>
+
+<h3>Directions</h3>
+<ul>
+    <li>
+<p>Take public transportation to the<strong> Staten Island Ferry</strong> (free ride for all commuters) and walk to the right following the water line.</p>
+</li>
+
+
+
+
+
+
+        </div>
+    </article>
+
+
+    <footer>
+        <h4>
+            <p>© Copyright 2017 Luis Cortez</p>
+        </h4>
+
+    </footer>
+
+    <!--    This is javascript needed for the navigation to work-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('#menu-icon').on('click', function() {
+                $('.navbar').toggleClass('expand');
+                return false;
+            });
+        });
+    </script>
+
+</body>
+
+</html>

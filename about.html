@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Midterm Web page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+       
+
+        <h1 class="logo"><a href="#">We shall never forget.</a></h1> <a id="menu-icon">&#9776; Menu</a>
+        <nav class="navbar">
+            <ul class="menu">
+               
+             <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lifesaver.html" >Wall Street Plaza</a></li>
+                
+                <li><a href="otherpictures.html">Staten Island Memorial</a></li>
+
+                <li><a class="active" href="about.html">About</a></li>
+                
+            </ul>
+        </nav>
+
+    </header>
+
+    <article class="main">
+        <div class="memorial">
+            <!--<img src="http://via.placeholder.com/1200x400" alt="">-->
+            <!--Google-Images-->
+            <img src="images/Twin-Towers-2.jpg" alt="Twin Towers" />
+
+        </div>
+
+        <div class="title">
+           
+           <h1>About Luis Cortez</h1>
+            <h1>About Wall Street Plaza and The Staten Island 911 Memorial</h1>
+           
+            
+            <p>Luis Cortez is a native New Yorker, who was born and raised in New York City. He is currently a part-time student at Borough of Manhattan Community College studying Multimedia Programming and a full-time worker for the Mayor's office of the City of New York.
+
+</p>
+
+           
+
+            <h2><strong> Wall Street Plaza</strong></h2>
+            
+
+
+                   <p>Wall Street Plaza is a small plaza located on the Lower East Side of Manhattan in New York City. The plaza has a small waterfall tours the back of the plaza, adjacent front Street, opposite Water Street.</p>
+
+                   <p>Is not an official 911 Memorial place, but it does hold a special meaning for some of us who witnessed, and lived through 911. It has a nice breeze and comfortable benches, for you to enjoy some downtime, while eating lunch and visiting New York City. There are plenty of places to shop around the area. Century 21 department store, is just a few blocks away from this Plaza, located at 1972 Broadway.</p>
+
+                   <h2><strong>Century 21 Department Store</strong></h2>
+
+                   <img src="images/Century-21-Map.jpg" align="Century-21-Map">
+
+                   <p>For those of you who are interested in visiting this Plaza, you can travel there by bus or train.</p>
+
+                   
+            <h3>Directions:</h3>
+            <ul>
+                <li>
+                    <p>You can take the <strong>J train</strong> to Broad Street/Wall Street station and then walk down tours Water Street.</p>
+                </li>
+
+                <li>
+                    <p>The <strong>4, 5 trains</strong> stop at Wall Street station, you walk from there tours Water Street.</p>
+                </li>
+
+                <li>
+                    <p>You can also take the <strong>2,3,4,5 trains</strong> to Fulton Street, and then walk from there tours water Street.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="introduction">
+
+
+
+        <p> You can view and read information about Wall Street Plaza and the Staten Island 911 Memorial. If you are interested in more information about 911, you can visit the official 911 website: <a href="https://www.911memorial.org/">Home</a> or visit the official National September 11 Memorial and Museum, located in downtown Manhattan, at 180 Greenwich St, New York, NY 10007.  </p>
+
+        <p><strong>Memorial:</strong> Open Daily 7:30 a.m. to 9 p.m.</p>
+        <p><strong>Museum:</strong> Open Daily Sunday to Thursday 9 a.m. to 8 p.m. (6 p.m. last entry) Friday and Saturday 9 a.m. to 9 p.m. (7 p.m. last entry)</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+        <div class="about">
+            
+           <!-- <div class="image"><img src="images/Sample-2.jpg" alt="memorial" /></div>-->
+
+            <div class="image"><img src="images/Profile-6.jpg" alt="Profile Picture" /></div>
+            
+            
+             <!--<div class="image"><img src="images/sample-4.jpg" alt="Staten Island Memorial" /></div>-->
+             
+              <!--<div class="image"><img src="images/sample-5.jpg" alt="Staten Island Memorial" /></div>-->
+           <div class="image"><img src="images/Capture-3.jpg" alt="Wall Street Plaza" /></div>
+              
+                <div class="image"><img src="images/Capture-New.jpg" alt="Staten Island Memorial" /></div>
+        </div>
+
+
+        <div class="maintext">
+
+            <h3><strong>Staten Island 911 Memorial</strong></h3>
+            
+          
+<p>What is special/meaningful about it?
+This memorial is dedicated to the 275 victims of the September 11th terrorist attack on New York City that lived on Staten Island</p>
+
+<p>Why should other people visit it? It has a beautiful view of lower Manhattan from across the waters here in the north shore of Staten Island. During the anniversary of September 11th you have a unique view of the light towers projected form the World Trade Center site.</p>
+
+<p> Best way to travel
+there?</p>
+
+<h3>Directions:</h3>
+<ul>
+    <li>
+<p>Take public transportation to the<strong> Staten Island Ferry</strong> (free ride for all commuters) and walk to the right following the water line.</p>
+</li>
+
+
+
+
+
+
+        </div>
+    </article>
+
+
+    <footer>
+        <h4>
+            <p>© Copyright 2017 Luis Cortez</p>
+        </h4>
+
+    </footer>
+
+    <!--    This is javascript needed for the navigation to work-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('#menu-icon').on('click', function() {
+                $('.navbar').toggleClass('expand');
+                return false;
+            });
+        });
+    </script>
+
+</body>
+
+</html>
